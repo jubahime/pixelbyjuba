@@ -1,0 +1,9 @@
+.profile_pic{
+     width: 30%;
+  max-width: 152px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+ display: block;
+ margin: clamp(40px, 8vh, 75px) auto 0;
+}
+

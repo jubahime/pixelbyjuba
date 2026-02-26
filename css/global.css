@@ -1,0 +1,25 @@
+@font-face {
+    font-family:PressStart2P ;
+    src: url(../fonts/PressStart2P-Regular.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --primary_color: #7E49B4;
+    --secondary_color: #6395ec;
+
+    --background_primary_color: #f1f2f3;
+
+    --text_primary_color: #141414;
+    --text_secondary_color: #FFFFFF;
+
+   --text_weight: 400;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
