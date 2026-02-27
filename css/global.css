@@ -1,25 +1,65 @@
 @font-face {
-    font-family:PressStart2P ;
-    src: url(../fonts/PressStart2P-Regular.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: PressStart2P;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
-:root{
-    --primary_color: #7E49B4;
-    --secondary_color: #6395ec;
+:root {
+  --primary_color: #7e49b4;
+  --secondary_color: #6395ec;
 
-    --background_primary_color: #f1f2f3;
+  --background_primary_color: #f1f2f3;
 
-    --text_primary_color: #141414;
-    --text_secondary_color: #FFFFFF;
+  --text_primary_color: #141414;
+  --text_secondary_color: #ffffff;
 
-   --text_weight: 400;
-
+  --text_weight: 400;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: PressStart2p;
+  background-color: var(--background_primary_color);
+  color: var(--text_primary_color);
+}
+
+.button{
+  min-width: 328px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text_primary_color);
+  justify-content: center;
+  background-color: transparent;
+  border: 3px solid var(--primary_color);
+  margin-top: 1.0rem;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.2s ease;
+
+}
+
+.button:focus{
+  background-color: var(--primary_color);
+  color:white;
+  transform: scale(0.97);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 2.5rem 3.5rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .button {
+    padding: 3.5rem 3.5rem;
+  }
 }
