@@ -1,125 +1,85 @@
+
 .profile_pic{
      width: 20%;
   min-width: 140px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
  display: block;
- margin: clamp(40px, 8vh, 75px) auto 0;
+ margin: clamp(20px, 8vh, 20px) auto 0;
 }
-
-.profile h1{
-   font-size: 1.2rem;
-   text-align: center;
-   margin: 1rem auto 0;
+.status{
+  background: #ede6ff;
+  padding: 12px;
+  margin: 20px 0;
+border: 2px solid var(--primary_color);
+  box-shadow: inset 0 0 0 2px #ffffff;
+  line-height: 1rem;
+   box-shadow: 6px 6px 0 #2c1c5f;
 }
 
 .profile p{
 font-size:0.6rem ;
-text-align: center;
+padding: 0 1.2rem;
+text-align: left;
 margin: 0.5rem auto 0;
 }
 
-.profile h2{
-   font-size: 1.125rem;
-   text-align: center;
-   margin: 2rem auto 0;
-}
-.profile h3{
-   font-size: 1rem;
-   text-align: center;
-   margin: 0.2rem auto 1.5rem;
-}
+
 .profile h3 span{
    color: var(--primary_color);
 }
 
-footer p{
-   font-size: 0.5rem;
-   text-align: center;
-   margin: 2rem auto 0;
-   line-height: 1.5rem;
+ .seeker .button__icon {
+  width: 40px;
+  height: 50px;
+  image-rendering: pixelated;
+  margin-right: 0.3rem;
+  
+}
+.seeker a{
+   font-size: 0.9rem;
+   padding-right: 2.5rem;
+  
+}
+
+.client .button__icon{
+width: 45px;
+  height: 55px;
+  image-rendering: pixelated;
+  margin-right: 0.5rem;
+ 
+}
+
+.client a{
+   font-size: 0.9rem;
+   padding: 1rem;
+}
+.dev .button__icon{
+width: 50px;
+  height: 60px;
+  image-rendering: pixelated;
+  margin-right: 0.3rem;
+  margin-top: 0.4rem;
+
+}
+
+.dev a{
+   font-size: 0.9rem;
+   padding: 1rem;
 }
 
 @media screen and (min-width: 768px){
-   .profile h1{
-   font-size: 2rem;
-   text-align: center;
-   margin: 1rem auto 0;
-}
-.profile p{
-font-size:1rem ;
-}
-
-.profile h2{
-   margin: 2rem 0 auto;
-   font-size: 1.5rem;
-}
-.profile h3{
-   font-size: 1.5rem;
-}
-
-.button{
-  font-size: 1.2rem;
-}
-footer p{
-   font-size: 1rem;
-   margin-top: 4rem;
-}
-}
-
-@media (min-width: 1024px) {
-.profile h1{
-   
-   text-align: center;
-   margin: 1rem auto 0;
-}
-
-.profile h2{
-   margin: 4rem 0 auto;
  
-}
-.profile h3{
-   margin: 1rem auto 2rem;
-}
-
-.button{
-  font-size: 1.2rem;
-}
-footer p{
-
-   margin-top: 4rem;
-
+.seeker .button__icon {
+  width: 40px;
+  height: 50px;
+  image-rendering: pixelated;
 }
 }
 
-@media (min-width: 1440px) {
-.profile h1{
-   font-size: 2.6rem;
-   text-align: center;
-   margin: 1rem auto 0;
-}
-.profile p{
-font-size:1.5rem ;
-}
 
-.profile h2{
-   margin: 4rem 0 auto;
-   font-size: 2rem;
-}
-.profile h3{
-   font-size: 2rem;
-   margin: 1rem auto 2rem;
-}
 
-.button{
-  font-size: 1.7rem;
-}
-footer p{
-   font-size: 1.5rem;
-   margin-top: 4rem;
-   line-height: 2.5rem;
-}
-}
+
 
 
 
