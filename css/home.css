@@ -1,9 +1,125 @@
 .profile_pic{
-     width: 30%;
-  max-width: 152px;
+     width: 20%;
+  min-width: 140px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
  display: block;
  margin: clamp(40px, 8vh, 75px) auto 0;
 }
+
+.profile h1{
+   font-size: 1.2rem;
+   text-align: center;
+   margin: 1rem auto 0;
+}
+
+.profile p{
+font-size:0.6rem ;
+text-align: center;
+margin: 0.5rem auto 0;
+}
+
+.profile h2{
+   font-size: 1.125rem;
+   text-align: center;
+   margin: 2rem auto 0;
+}
+.profile h3{
+   font-size: 1rem;
+   text-align: center;
+   margin: 0.2rem auto 1.5rem;
+}
+.profile h3 span{
+   color: var(--primary_color);
+}
+
+footer p{
+   font-size: 0.5rem;
+   text-align: center;
+   margin: 2rem auto 0;
+   line-height: 0.8rem;
+}
+
+@media screen and (min-width: 768px){
+   .profile h1{
+   font-size: 2rem;
+   text-align: center;
+   margin: 1rem auto 0;
+}
+.profile p{
+font-size:1rem ;
+}
+
+.profile h2{
+   margin: 2rem 0 auto;
+   font-size: 1.5rem;
+}
+.profile h3{
+   font-size: 1.5rem;
+}
+
+.button{
+  font-size: 1.2rem;
+}
+footer p{
+   font-size: 1rem;
+   margin-top: 4rem;
+}
+}
+
+@media (min-width: 1024px) {
+.profile h1{
+   
+   text-align: center;
+   margin: 1rem auto 0;
+}
+
+.profile h2{
+   margin: 4rem 0 auto;
+ 
+}
+.profile h3{
+   margin: 1rem auto 2rem;
+}
+
+.button{
+  font-size: 1.2rem;
+}
+footer p{
+
+   margin-top: 4rem;
+   line-height: 2rem;
+}
+}
+
+@media (min-width: 1440px) {
+.profile h1{
+   font-size: 2.6rem;
+   text-align: center;
+   margin: 1rem auto 0;
+}
+.profile p{
+font-size:1.5rem ;
+}
+
+.profile h2{
+   margin: 4rem 0 auto;
+   font-size: 2rem;
+}
+.profile h3{
+   font-size: 2rem;
+   margin: 1rem auto 2rem;
+}
+
+.button{
+  font-size: 1.7rem;
+}
+footer p{
+   font-size: 1.5rem;
+   margin-top: 4rem;
+   line-height: 2.5rem;
+}
+}
+
+
 
