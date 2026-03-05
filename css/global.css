@@ -27,48 +27,46 @@
 body {
   font-family: PressStart2p;
   background: linear-gradient(#f5f0ff, #e6dcff);
-  background-image: url(../img/background.png) ;
+  background-image: url(../img/background.png);
   background-size: cover;
   color: var(--text_primary_color);
 
-    /* frame full screen */
+  /* frame full screen */
   border: 4px solid var(--primary_color);
   box-shadow: inset 0 0 0 2px #ffffff;
   min-height: 100vh;
-  
 }
 main {
   max-width: 420px;
   margin: 40px auto;
   padding: 24px;
   background: transparent;
-  
 }
-h1{
+h1 {
   font-size: 1.2rem;
-   text-align: center;
-   margin: 0.5rem auto 0;
+  text-align: center;
+  margin: 0.5rem auto 0;
 }
-h2{ 
+h2 {
   font-size: 1.125rem;
-   text-align: center;
-   margin: 2rem auto 0;}
+  text-align: center;
+  margin: 2rem auto 0;
+}
 
-   h3{
-      font-size: 1rem;
-   text-align: center;
-   
-   }
-   a{
-    font-size: 0.9rem;
-   }
+h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+a {
+  font-size: 0.9rem;
+}
 
-.divider{
-border: 0;
+.divider {
+  border: 0;
   height: 3px;
-  background: var(--primary_color) ;
-  margin: 10px 0 ;
-  width: 100% ;
+  background: var(--primary_color);
+  margin: 10px 0;
+  width: 100%;
   opacity: 1;
   box-shadow: 0 2px 0 #2c1c5f; /* sombra pixel pra baixo */
 }
@@ -79,11 +77,13 @@ border: 0;
   height: 57px;
   display: flex;
   align-items: center;
-    /* Borda externa */
+  /* Borda externa */
   border: 3px solid var(--primary_color);
 
   /* Borda interna + sombra externa */
- box-shadow: inset 0 0 0 2px #ffffff, 6px 6px 0 var(--tertiary_color);
+  box-shadow:
+    inset 0 0 0 2px #ffffff,
+    6px 6px 0 var(--tertiary_color);
   text-decoration: none;
   color: var(--text_primary_color);
   justify-content: flex-start;
@@ -96,7 +96,7 @@ border: 0;
   text-align: center;
 }
 
-.button__icon{
+.button__icon {
   color: var(--text_primary_color);
 }
 
@@ -105,67 +105,69 @@ border: 0;
   color: white;
   transform: scale(0.97);
 }
-.button_arrow{
-   width: 35px;
+.button_arrow {
+  width: 35px;
   height: 40px;
   image-rendering: pixelated;
   margin-right: 1rem;
 }
-footer p{
-   font-size: 0.5rem;
-   text-align: center;
-   margin: 3.5rem auto 0;
-   line-height: 1rem;
+footer p {
+  font-size: 0.5rem;
+  text-align: center;
+  margin: 3.5rem auto 0;
+  line-height: 1rem;
 }
 
 @media (min-width: 768px) {
-  .button{
+  .button {
     margin: 1.5rem auto 0;
   }
-  h1{ font-size: 1.5rem;
-   text-align: center;
-   margin: 1rem auto 0;}
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem auto 0;
+  }
 
-   h2{
-     margin: 2.5rem 0 auto;
-   font-size: 1.3rem;
-   }
-h3{
-  font-size: 1.3rem;
-   white-space: nowrap;
-   margin: 0.6rem auto 0;
-}
-footer p{
-   font-size: 0.5rem;
-   margin-top: 4rem;
-}
+  h2 {
+    margin: 2.5rem 0 auto;
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    white-space: nowrap;
+    margin: 0.6rem auto 0;
+  }
+  footer p {
+    font-size: 0.5rem;
+    margin-top: 4rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  h1{text-align: center;
-   margin: 1rem auto 0;}
-  h3{
-     margin: 1rem auto 2rem;
+  h1 {
+    text-align: center;
+    margin: 1rem auto 0;
   }
+  h3 {
+    margin: 1rem auto 2rem;
   }
-
-  @media (min-width: 1440px) {
-    h1{
-   font-size: 1.5rem;
-   text-align: center;
-   margin: 1rem auto 0;
-}
-a{
-  font-size: 1rem;
 }
 
-footer p{
-  font-size: 0.6rem;
-}
-
-footer{
-  margin-top: auto;
-}
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem auto 0;
+  }
+  a {
+    font-size: 1rem;
   }
 
+  footer p {
+    font-size: 0.6rem;
+  }
 
+  footer {
+    margin-top: auto;
+  }
+}
